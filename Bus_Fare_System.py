@@ -1,3 +1,4 @@
+#   Let me know if you have better Option
 class Bus:
     def __init__(self,age,ticket): 
         self.age=age 
