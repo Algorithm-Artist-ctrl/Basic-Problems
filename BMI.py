@@ -1,5 +1,5 @@
 def bmi_calculator(w,h):
-    bmi = w/(h**2)#error
+    bmi = w/(h**2)
     print(f"BMI = {bmi}")
     if bmi < 18.5:
         print("Category: Underweight")
@@ -10,5 +10,5 @@ def bmi_calculator(w,h):
     else:
         print("Category: Obese")
 weight =float(input("Enter your weight in kg: "))
-height =input(input("Enter your height in meters: "))
+height =int(input("Enter your height in meters: "))
 bmi_calculator(weight, height)
