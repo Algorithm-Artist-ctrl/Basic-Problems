@@ -1,0 +1,5 @@
+user_input = input("Enter numbers separated by spaces: ")  
+user_list = list(map(int, user_input.split()))
+print(user_input)
+set1=set(user_list)
+print(set1)
