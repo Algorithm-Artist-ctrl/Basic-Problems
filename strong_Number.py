@@ -9,7 +9,6 @@ def digit(n):
         rem=n%10
         factorial=fact(rem)
         sum=sum+factorial
-        #print(factorial)
         n=n//10
     if temp==sum:
         return f"It is strong Number"
