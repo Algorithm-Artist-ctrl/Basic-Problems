@@ -1,14 +1,3 @@
-'''Q20. Temperature Advisory
-Input Celsius temperature:
-
-< 0 → Freezing
-
-0–20 → Cold
-
-21–35 → Normal
-
-36–45 → Hot
-'''
 def temperature_system(temperature):
     if temperature>=45:
         print("Heat Wave Alert ")
